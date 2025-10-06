@@ -1,0 +1,167 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "image": "/images/categories/electronics.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "image": "/images/categories/fashion.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "image": "/images/categories/home_kitchen.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sports & Fitness",
+      "image": "/images/categories/sports_fitness.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Beauty & Personal Care",
+      "image": "/images/categories/beauty.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 101,
+      "name": "Wireless Bluetooth Headphones",
+      "description": "High-quality over-ear wireless headphones with noise cancellation and 20-hour battery life.",
+      "price": 89.99,
+      "categoryId": 1,
+      "image": "/images/products/headphones.jpg",
+      "rating": 4.5,
+      "stock": 35
+    },
+    {
+      "id": 102,
+      "name": "Smartwatch Series 6",
+      "description": "Track fitness, heart rate, and notifications with this stylish smartwatch.",
+      "price": 199.99,
+      "categoryId": 1,
+      "image": "/images/products/smartwatch.jpg",
+      "rating": 4.7,
+      "stock": 20
+    },
+    {
+      "id": 201,
+      "name": "Men's Casual Denim Jacket",
+      "description": "Classic blue denim jacket perfect for casual outings.",
+      "price": 49.99,
+      "categoryId": 2,
+      "image": "/images/products/denim_jacket.jpg",
+      "rating": 4.2,
+      "stock": 50
+    },
+    {
+      "id": 301,
+      "name": "Non-Stick Cookware Set - 10 Piece",
+      "description": "Durable non-stick cooking set with heat-resistant handles.",
+      "price": 129.99,
+      "categoryId": 3,
+      "image": "/images/products/cookware_set.jpg",
+      "rating": 4.6,
+      "stock": 15
+    },
+    {
+      "id": 401,
+      "name": "Yoga Mat with Carrying Strap",
+      "description": "Eco-friendly yoga mat for gym and home workouts.",
+      "price": 25.99,
+      "categoryId": 4,
+      "image": "/images/products/yoga_mat.jpg",
+      "rating": 4.8,
+      "stock": 60
+    },
+    {
+      "id": 501,
+      "name": "Vitamin C Face Serum",
+      "description": "Brightens skin tone and reduces wrinkles with daily use.",
+      "price": 19.99,
+      "categoryId": 5,
+      "image": "/images/products/face_serum.jpg",
+      "rating": 4.4,
+      "stock": 80
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "123456",
+      "address": "123 Main St, Dhaka, Bangladesh",
+      "role": "customer"
+    },
+    {
+      "id": 2,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "address": "Admin HQ, Dhaka, Bangladesh",
+      "role": "admin"
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 9001,
+      "userId": 1,
+      "date": "2025-10-02T14:30:00Z",
+      "total": 139.98,
+      "status": "delivered",
+      "items": [
+        { "productId": 101, "quantity": 1 },
+        { "productId": 201, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 9002,
+      "userId": 1,
+      "date": "2025-10-03T10:15:00Z",
+      "total": 49.99,
+      "status": "processing",
+      "items": [{ "productId": 401, "quantity": 2 }]
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 101,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Excellent sound quality and battery life!",
+      "date": "2025-09-25"
+    },
+    {
+      "id": 2,
+      "productId": 201,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Good fit, stylish, and comfortable.",
+      "date": "2025-09-28"
+    }
+  ],
+
+  "banners": [
+    {
+      "id": 1,
+      "image": "/images/banners/sale_banner.jpg",
+      "title": "Mega Festival Sale - Up to 50% Off!",
+      "link": "/shop"
+    },
+    {
+      "id": 2,
+      "image": "/images/banners/new_arrivals.jpg",
+      "title": "Check Out the Latest Arrivals!",
+      "link": "/new-arrivals"
+    }
+  ]
+}
